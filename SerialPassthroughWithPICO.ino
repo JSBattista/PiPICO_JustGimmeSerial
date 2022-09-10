@@ -2,6 +2,12 @@
  Just gimme serial!!!!!
  Based on
   https://www.arduino.cc/en/Tutorial/BuiltInExamples/SerialPassthrough
+  
+  
+  
+  Use Tools->Boards->Raspberry Pi 2040 Boards(X.X.X)->Raspberry Pi Pico
+  
+  
 */
 
 void setup() {
