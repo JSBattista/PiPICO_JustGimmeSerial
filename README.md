@@ -8,3 +8,4 @@ Look, all I wanted is some Arduino IDE based C sample just so I can get some com
 
 So with much cursing I finally managed to get all three UARTs, one of which is the default in the USB connector, working. I'm putting it here mainly so I don't forget. Note this is the Philhower library. 
 
+The second and newer file is the MBED OS Version. Working with the Pico on the job this week I noticed that Serial and Serial1 were possible, but got an error when trying to use "Serial2". But the MBED OS allows a more "Raw" and parameter-rich way to define and set up serial ports. So "Serial" is still active but I have taken to the other means for the other two serial ports.  I happen to have some old Bluetooth devices that use RTS and CTS so this can be handy. 
